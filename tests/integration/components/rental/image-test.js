@@ -23,7 +23,7 @@ module('Integration | Component | rental/image', function(hooks) {
     await render(hbs`
     <Rental::Image
       src="/assets/images/teaching-tomster.png"
-      alt=Teaching Tomster"
+      alt="Teaching Tomster"
       />
     `);
     assert.dom('button.image').exists();
