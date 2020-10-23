@@ -1,7 +1,6 @@
 import Route from '@ember/routing/route';
 
 export default class IndexRoute extends Route {
-  // model hook 하는 메서드
   async model() {
     return {
       title: 'Grand Old Mansion',
