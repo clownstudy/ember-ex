@@ -6,11 +6,10 @@
 {{!-- component에서 등록된 특정 메서드의 내의 것을 가져올 때
 (아마도 getter로 자동 등록되나? {{@메서드.변수명}}
 이렇게해서 가져올 수 있음 --}}
-<h1>{{@model.title}}</h1>
 <div class="rentals">
   <ul class="results">
-    <li><Rental /></li>
-    <li><Rental /></li>
-    <li><Rental /></li>
+    <li><Rental @rental={{@model}} /></li>
+    <li><Rental @rental={{@model}} /></li>
+    <li><Rental @rental={{@model}} /></li>
   </ul>
 </div>
