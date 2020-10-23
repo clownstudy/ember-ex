@@ -54,7 +54,7 @@ module('Integration | Component | map', function(hooks) {
       height="300"
     />`);
 
-    assert.dom('.map img').hasAttribute('src',/^https:\/\/api\.mapbox\.com/,'the src tarts with "https://api.mapbox.com"');
+    assert.dom('.map img').hasAttribute('src',/^https:\/\/api\.mapbox\.com/,'the src starts with "https://api.mapbox.com"');
     assert.dom('.map img').hasAttribute('width','150');
     assert.dom('.map img').hasAttribute('height','120');
   });
